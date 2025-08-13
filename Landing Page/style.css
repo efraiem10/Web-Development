@@ -1,0 +1,170 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #2e3438, #4e585d);
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+.logo img {
+    height: 25px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.codm-btn {
+    background-color: #ffdd00;
+    color: black;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.codm-btn:hover {
+    background-color: #ffcc00;
+}
+
+body {
+    margin: 0;
+    background-color: #161b1f;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.container0 {
+    background-image: url("2ns.png");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    position: relative;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+h3, p,h4 {
+    color: #fff;
+}
+
+.container2, .container3, .container4, .container5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.container2 img,
+.container3 img,
+.container4 img,
+.container5 img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+
+.container2 img:hover,
+.container3 img:hover,
+.container4 img:hover,
+.container5 img:hover {
+    transform: scale(2.0);
+}
+
+.container2 p,
+.container3 p,
+.container4 p,
+.container5 p {
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+.container6 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card1, .card2, .card3 {
+    text-align: center;
+    width: 200px;
+}
+
+.card1 img, .card2 img, .card3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.4s ease;
+}
+
+.card1 img:hover, .card2 img:hover, .card3 img:hover {
+    transform: scale(1.5);
+}
+.container7 {
+    background-image: url("7th.png");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    background-repeat: no-repeat;
+}
