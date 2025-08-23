@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <title>Weatherapp</title>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div class="title"> Weather </div>
+      <div class="searchbar">
+        <input id="q" type="text" placeholder="Search city (e.g., Mumbai, London, New York)" />
+        <button id="useLocation" class="btn">Use Location</button>
+        <button id="searchBtn" class="btn btn-accent">Search</button>
+      </div>
+      <div id="msg" class="meta"></div>
+    </header>
+
+    <section class="row">
+      <section class="card">
+        <div id="current" class="current">
+          <div class="icon"><img id="icon" alt="icon" src=""/></div>
+          <div>
+            <div id="city" class="city">—</div>
+            <div id="desc" class="meta">—</div>
+            <div id="time" class="meta">—</div>
+          </div>
+          <div class="temp"><span id="temp">—</span><small id="unit">°C</small></div>
+        </div>
+        <div class="kpis">
+          <div class="kpi"><div class="label">Feels like</div><div id="feels" class="value">—</div></div>
+          <div class="kpi"><div class="label">Humidity</div><div id="hum" class="value">—</div></div>
+          <div class="kpi"><div class="label">Wind</div><div id="wind" class="value">—</div></div>
+          <div class="kpi"><div class="label">Pressure</div><div id="press" class="value">—</div></div>
+        </div>
+      </section>
+
+      <aside class="card">
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:8px;">
+          <div style="font-weight:800">5-Day Forecast</div>
+          <div class="toggle" title="Units">
+            <button id="cBtn" class="active">°C</button>
+            <span class="meta">/</span>
+            <button id="fBtn">°F</button>
+          </div>
+        </div>
+        <div id="forecast" class="forecast"></div>
+      </aside>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
